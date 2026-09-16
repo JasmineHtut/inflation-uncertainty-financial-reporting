@@ -61,6 +61,9 @@ economic-uncertainty-financial-reporting/
 │   ├── 03_variable_construction.R
 │   ├── 04_abnormal_activity.R
 │   ├── 05_main_regression.R
+│   ├── 06_moderation_analysis.R
+│   └── 07_additional_analysis.R
+
 ```
 
 ## Running the analysis
@@ -77,7 +80,8 @@ Run the scripts sequentially from the project root:
 04_abnormal_activity.R
         ↓
 05_main_regression.R
-
+06_moderation_analysis.R
+07_additional_analysis.R
 ```
 
 The scripts are intentionally separated by analytical stage so that the research workflow is easier to understand and review.
