@@ -14,8 +14,11 @@ uncertainty.
 ## Hypotheses
 
 H1:  Inflation uncertainty is negatively associated with abnormal cash flow from operations. 
+
 H2:  Inflation uncertainty is negatively associated with abnormal production costs. 
+
 H3a: Inflation uncertainty is negatively associated with abnormal discretionary expenses 
+
 H3b: Inflation uncertainty is positively associated with abnormal discretionary expenses 
 
 ## Project workflow
@@ -25,10 +28,6 @@ H3b: Inflation uncertainty is positively associated with abnormal discretionary 
 3. Financial and control-variable construction
 4. Abnormal activity estimation
 5. Main fixed-effects regression
-6. Moderation / interaction analysis
-7. Robustness and alternative specifications
-8. Additional analyses
-
 
 ## Methods demonstrated
 
