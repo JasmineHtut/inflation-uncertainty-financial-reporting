@@ -92,7 +92,7 @@ df <- df %>%
 # -------------------------------------------------------------------
 
 winsor_vars <- c(
-  "OperLev_l1", "LEV", "LEV_l1", "InvIntensity_l1",
+  "CapIntensity_l1", "LEV", "LEV_l1", "InvIntensity_l1",
   "ROA", "SIZE", "MTB", "GROWTH"
 )
 
