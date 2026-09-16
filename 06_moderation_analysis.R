@@ -1,10 +1,10 @@
 # 06_moderation_analysis.R
-# Purpose: Test whether leverage, operating leverage, and inventory
+# Purpose: Test whether leverage, capital intensity, and inventory
 # intensity moderate the relationship between economic uncertainty
 # and abnormal operating activities.
 #
 # Input: df created by 04_abnormal_activity.R
-# Output: moderation_results.xlsx
+# Output: Leverage_moderation_results.xlsx, Capital_Intensity_moderation_results.xlsx, Inventory_Intensisty_moderation_results.xlsx
 
 library(fixest)
 library(writexl)
