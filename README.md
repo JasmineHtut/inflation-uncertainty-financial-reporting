@@ -89,4 +89,6 @@ The original firm-level accounting dataset and related source files are not incl
 ## Inflation Uncertainty measure 
 Inflation uncertainty measured using GARCH method
 
+### Note: This portfolio project is a reconstructed and independently cleaned version of the empirical analysis conducted for my master's thesis. During the reconstruction, I identified and corrected data-processing procedures that differed from the original analysis. Therefore, the results may differ from those reported in the submitted thesis.
+
 
