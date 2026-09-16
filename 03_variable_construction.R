@@ -19,7 +19,7 @@ df <- df %>%
     GROWTH = dSALES / SALES_l1,
     MarketCap = (SharePrice * ShareNo) / 1000,
     LEV = TotalLiability / AT,
-    OperLev = PPE / AT,
+    CapIntensity = PPE / AT,
     PROD = COGS + (Inventory - lag(Inventory)),
     DISEXP = SGA + RND,
     TA = NI - CFO,
@@ -28,7 +28,7 @@ df <- df %>%
     dAR = AR - lag(AR),
     InvIntensity = Inventory / AT,
     LEV_l1 = lag(LEV),
-    OperLev_l1 = lag(OperLev),
+    CapIntensity_l1 = lag(CapIntensity),
     InvIntensity_l1 = lag(InvIntensity),
     MTB = MarketCap / TotalEquity,
     BIG4 = ifelse(
